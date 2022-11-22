@@ -3,6 +3,8 @@
   <HeaderHero />
   <!-- Divider -->
   <MainDivider />
+  <!-- Body -->
+  <MainBody />
 </template>
 
 <script setup lang="ts">
