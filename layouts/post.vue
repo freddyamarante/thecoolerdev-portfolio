@@ -3,7 +3,7 @@
     <!-- Navbar -->
     <NavigationNavbar />
     <!-- Body -->
-    <main class="flex flex-col flex-grow h-full min-h-screen">
+    <main class="flex flex-col flex-grow h-full min-h-screen bg-gray-800">
       <slot />
     </main>
   </div>

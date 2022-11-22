@@ -4,7 +4,7 @@
     </div>
     <div class="w-full min-h-screen flex justify-end flex-col relative">
       <!-- Header -->
-      <div class="flex flex-col pl-4 lg:pl-8 pb-28 lg:pr-52 md:pr-32 pr-12 lg:pb-12">
+      <div class="flex flex-col pl-8 lg:pl-12 pb-8 lg:pr-52 md:pr-32 pr-12 lg:pb-12 mt-48">
         <!-- Headline -->
         <div class="pb-4 min-w-full">
           <h1 class="font-semibold text-5xl lg:text-6xl text-left tracking-tighter">This is The Title of The Article as
