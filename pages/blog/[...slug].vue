@@ -1,10 +1,12 @@
 <template>
-  <!-- Hero (Article title, date, info, banner) -->
-  <HeaderHero />
-  <!-- Divider -->
-  <MainDivider />
-  <!-- Body -->
-  <MainBody />
+  <ContentDoc v-slot="{ doc }">
+    <!-- Hero (Article title, date, info, banner) -->
+    <HeaderHero :markdown="doc" />
+    <!-- Divider -->
+    <MainDivider />
+    <!-- Body -->
+    <MainBody :markdown="data" />
+  </ContentDoc>
 </template>
 
 <script setup lang="ts">
@@ -12,4 +14,7 @@
 definePageMeta({
   layout: 'post',
 })
+
+// Get markdown data
+const { data } = await useAsyncData('article-example', () => queryContent('/article-example').findOne())
 </script>
