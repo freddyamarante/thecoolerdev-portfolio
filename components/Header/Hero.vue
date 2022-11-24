@@ -8,7 +8,7 @@
         <div class="flex flex-col pl-8 lg:pl-12 pb-8 lg:pr-52 md:pr-32 pr-12 lg:pb-12 mt-48">
           <!-- Headline -->
           <div class="pb-4 min-w-full">
-            <h1 class="font-semibold text-5xl lg:text-6xl text-left tracking-tighter">{{ doc.title }}</h1>
+            <h1 class="font-semibold font-sans text-5xl lg:text-6xl text-left tracking-tight">{{ doc.title }}</h1>
           </div>
           <!-- Subtitle -->
           <div class="pr-8">

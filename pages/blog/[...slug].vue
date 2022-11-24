@@ -5,7 +5,7 @@
     <!-- Divider -->
     <MainDivider />
     <!-- Body -->
-    <MainBody :markdown="data" />
+    <MainArticle :markdown="data" />
   </ContentDoc>
 </template>
 
