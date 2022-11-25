@@ -1,6 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./assets/css/tailwind.css"],
+  content: [
+    "storyblok/**/*.{vue,js}",
+    "components/**/*.{vue,js}",
+    "pages/**/*.vue",
+    "assets/**/*.{vue,js}",
+  ],
   theme: {
     extend: {},
     fontFamily: {

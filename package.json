@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --https --ssl-cert localhost.pem --ssl-key localhost-key.pem",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -12,5 +12,8 @@
     "@nuxtjs/tailwindcss": "^6.1.3",
     "@tailwindcss/typography": "^0.5.8",
     "nuxt": "3.0.0"
+  },
+  "dependencies": {
+    "@storyblok/nuxt": "^4.5.0"
   }
 }
