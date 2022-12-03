@@ -7,7 +7,11 @@ module.exports = {
     "assets/**/*.{vue,js}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        vampire: "#0a0909",
+      },
+    },
     fontFamily: {
       sans: ["Inter", "sans-serif"],
       serif: ["Inter", "serif"],
